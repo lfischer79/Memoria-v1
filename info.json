@@ -1,6 +1,6 @@
 {
-    "manufacturer": "LeeSKeeBs",
-    "keyboard_name": "Memoria V1.0",
+    "manufacturer": "LeeSKeeBS",
+    "keyboard_name": "Memoria",
     "maintainer": "LeeZard",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
@@ -10,27 +10,25 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "encoder": true,
         "nkro": true
     },
     "matrix_pins": {
         "cols": ["GP19", "GP25", "GP24", "GP10", "GP9", "GP6", "GP5", "GP4", "GP3", "GP2", "GP1", "GP0"],
         "rows": ["GP28", "GP26", "GP29", "GP20", "GP23"]
     },
-    {
+    "processor": "RP2040",
+    "url": "https://github.com/shinkaimayano/Memoria",
+    "usb": {
+        "device_version": "2.0.0",
+        "pid": "0x0003",
+        "vid": "0x548C"
+    },
+     {
       "encoder": {
         "rotary": [
           { "pin_a": "GP11", "pin_b": "GP12", "resolution": 4 }
         ]
       }
-    },
-    "processor": "RP2040",
-    "url": "https://github.com/shinkaimayano/Memoria",
-    "usb": {
-        "device_version": "2.0a",
-        "pid": "0x0003",
-        "vid": "0x548C"
-    },
     "layouts": {
         "LAYOUT": {
             "layout": [
